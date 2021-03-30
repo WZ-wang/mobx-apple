@@ -1,0 +1,9 @@
+{
+    "apps":[
+        {
+            "name":"todo",
+            "script":"npm",
+            "args":"start"
+        }
+    ]
+}
