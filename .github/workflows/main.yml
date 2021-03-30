@@ -16,8 +16,8 @@ jobs:
     # 打包构建
     - name: Build
       uses: actions/setup-node@master
-    - run: yarn
-    - run: npm run build
+    # - run: yarn
+    # - run: npm run build
     - run: tar -zcvf release.tgz public src config-overrides.js package.json package-lock.json pm2.config.json
 
     # 发布 Release
